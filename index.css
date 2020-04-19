@@ -1,0 +1,125 @@
+body {
+	background-color: gray;
+}
+
+h2 {
+	color: white;
+	background-color: blue;
+	margin-top: 0px;
+	padding: 1em 0.5em;
+	display: flex;
+	align-items: center;
+}
+
+h4 {
+	width: 6em;
+	text-align: right;
+}
+
+#contact-linkedin {
+	margin-bottom: 1.5em;
+}
+
+#footer {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	padding-bottom: 1em;
+}
+
+#intro-container {
+	display: flex;
+	align-items: center;
+	align-content: center;
+	padding-bottom: 1em;
+}
+
+#intro-img {
+	width: 7em;
+	height: 7em;
+	margin: 0.5em;
+	border: solid black;
+}
+
+#intro-text {
+	font-size: 2em;
+}
+
+#last-intro-line {
+	margin-bottom: 0.5em;
+}
+
+#left-part {
+	min-width: 20%;
+	padding-right: 2em;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+#right-part {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.contact-line {
+	display: flex;
+	align-items: center;
+	padding-left: 0.5em;
+}
+
+.container-body {
+	display: flex;
+}
+
+.link-icon {
+	height: 5em;
+}
+
+.mini-icon {
+	width: 1.5em;
+	height: 1.5em;
+	padding-right: 0.5em;
+}
+
+.section {
+	background-color: white;
+	border: solid black;
+	margin-bottom: 1em;
+}
+
+.subsection {
+	padding-bottom: 1em;
+}
+
+.section-content {
+	padding-right: 0.5em;
+}
+
+.section-icon {
+	padding-right: 0.5em;
+}
+
+.title-with-date {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#intro-text > p {
+	padding-left: 0.5em;
+	margin-top: 0px;
+}
+
+.section h3 {
+	padding-left: 0.5em;
+}
+
+.section h4 {
+	padding-left: 1em;
+}
+
+.section p {
+	padding-left: 2em;
+}
